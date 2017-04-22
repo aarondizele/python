@@ -35,7 +35,7 @@ def Main():
     parser.add_argument("num", help="The fibonacci number tou wish to calculate or compute.", type=int)
     parser.add_argument("-o", "--output", help="Output result to a file", action="store_true")
 
-    args = parser.parse_args()
+    args = parser.parse_args() ### take args in system 
 
     result = fib(args.num)
     if args.verbose:
