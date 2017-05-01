@@ -47,7 +47,7 @@ for i in range(len(data) - 1): ### decrement
     todays_row = data[i]
     todays_date = todays_row[0]
     todays_price = todays_row[-1]
-    yesterdays_row = data[i+1]
+    yesterdays_row = data[i+1] ## i++
     yesterdays_price = yesterdays_row[-1]
 
     daily_return = (todays_price - yesterdays_price) / yesterdays_price
