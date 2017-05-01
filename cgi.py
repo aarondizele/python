@@ -9,9 +9,9 @@ form = cgi.fieldStorage()
 if form.getvalue("name"):
     name = form.getvalue("name")
     print("<h3>Hello "+name+"! Thanks for using my script!</h1><br>")
-if form.getvalue("name"):
+if form.getvalue("happy"):
     print("<p> Yay! I'm happy too!</p>")
-if form.getvalue("name"):
+if form.getvalue("sad"):
     print("<p>Oh no! Why are you sad? </p>")
 
 
