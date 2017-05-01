@@ -4,7 +4,7 @@ import elementary
 def File(filename):
     try:
         file = open(filename)
-        text = file.read()
+        text = file.readlines()
         print('--- '+filename)
         print(text)
     except FileNotFoundError:
