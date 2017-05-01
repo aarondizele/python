@@ -15,7 +15,7 @@ if form.getvalue("sad"):
     print("<p>Oh no! Why are you sad? </p>")
 
 
-print("<form methode='post' action='cgi.py' ")
+print("<form method='post' action='cgi.py' ")
 print("<p>Name: <input type='text' name='name' />")
 print("<input type='checkbox' name='happy' /> Happy")
 print("<input type='checkbox' name='sad' /> Sad")
