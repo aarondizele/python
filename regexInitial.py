@@ -1,8 +1,7 @@
 import sys, os, re
 
 def Find(pat, text):
-    match = re.findall(pat, text)
-    # match = re.search(pat, text)
+    match = re.search(pat, text, re.I|re.M)
     if match:
         print("It matches : " + match.group())
     else: print('Not match')
